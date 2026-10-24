@@ -7,7 +7,7 @@ const webUrl = z
 
 export function resolveSiteUrl(value: string | undefined): string {
   const trimmed = value?.trim() ?? '';
-  if (!trimmed) return 'https://example.com';
+  if (!trimmed) return 'https://bluerosie.github.io';
   return webUrl.parse(trimmed);
 }
 const action = z.object({
