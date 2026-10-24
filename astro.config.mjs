@@ -7,7 +7,7 @@ import { site } from './src/config/site.ts';
 const base = process.env.SITE_BASE || '/';
 
 export default defineConfig({
-  site: site.url,
+  site: bluerosie.github.io,
   base,
   output: 'static',
   integrations: [
