@@ -45,11 +45,11 @@ const schema = z.object({
 
 export const parseSite = (value: unknown) => schema.parse(value);
 export const site = parseSite({
-  name: 'Noir CLI',
-  terminalLabel: '~/noir-cli',
+  name: 'Jina Kim',
+  terminalLabel: '~/code-blog',
   url: resolveSiteUrl(process.env.SITE_URL),
-  repository: 'https://github.com/nandomoreirame/terminalnoir-astro-theme',
-  author: 'Your name',
+  repository: 'https://github.com/bluerosie/bluerosie.github.io',
+  author: 'Jina Kim',
   version: '0.0.1',
   ctas: {
     en: {
